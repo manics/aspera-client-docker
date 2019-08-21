@@ -4,3 +4,4 @@ services:
 script:
     - docker build -t aspera-client .
     - docker run --rm aspera-client idr0001 md5sum.txt /tmp/idr0001/
+    - docker run --rm aspera-client idr0018 '20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-LN - 2015-06-19 19.20.50.ndpi.ndpa' /tmp/idr0018/
